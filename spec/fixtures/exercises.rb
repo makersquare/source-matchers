@@ -32,6 +32,11 @@ end
 
 module Setters
   class ChairA
+    def stand_up
+      def why_am_i_here
+        "help"
+      end
+    end
   end
 end
 

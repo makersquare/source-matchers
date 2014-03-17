@@ -4,8 +4,8 @@ module SourceMatchers
 
     class AbstractMatcher
 
-      def initialize(word)
-        @word = word
+      def initialize(target)
+        @target = target
       end
 
       def matches?(source)
